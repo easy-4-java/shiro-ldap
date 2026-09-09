@@ -15,6 +15,7 @@
  */
 package org.apache.shiro.ldap.realm;
 
+import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.biz.realm.AbstractAuthorizingRealm;
 import org.apache.shiro.ldap.token.LdapLoginToken;
 
@@ -31,7 +32,7 @@ public class LdapStatefulAuthorizingRealm extends AbstractAuthorizingRealm {
 	 *
 	 * @return the authentication token class
 	 */
-	public Class<?> getAuthenticationTokenClass() {
+	public Class<? extends AuthenticationToken> getAuthenticationTokenClass() {
 		return LdapLoginToken.class;// 此Realm只支持LdapToken
 	}
 
