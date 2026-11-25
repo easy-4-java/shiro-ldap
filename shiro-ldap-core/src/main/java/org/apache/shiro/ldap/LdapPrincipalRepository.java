@@ -30,7 +30,7 @@ import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.SimpleAuthenticationInfo;
 import org.apache.shiro.biz.authz.principal.ShiroPrincipal;
 import org.apache.shiro.biz.authz.principal.ShiroPrincipalRepositoryImpl;
-import org.apache.shiro.util.StringUtils;
+import org.apache.shiro.lang.util.StringUtils;
 import org.apache.shiro.ldap.spring.ShiroLdapProperties;
 import org.apache.shiro.ldap.exception.IncorrectLdapException;
 import org.apache.shiro.ldap.token.LdapLoginToken;

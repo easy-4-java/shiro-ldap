@@ -1,7 +1,5 @@
 package org.apache.shiro.ldap.spring;
 
-import org.apache.shiro.ldap.spring.cache.ShiroEhCache2CacheConfiguration;
-import org.apache.shiro.spring.config.web.autoconfigure.ShiroWebAutoConfiguration;
 import org.apache.shiro.web.servlet.AbstractShiroFilter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
